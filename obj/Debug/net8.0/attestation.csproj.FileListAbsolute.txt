@@ -12,3 +12,4 @@ C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\
 C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.pdb
 C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.genruntimeconfig.cache
 C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\ref\attestation.dll
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.sourcelink.json

@@ -3,36 +3,17 @@ class Program
 {
     static void Main()
     {
-        // Задаем исходный массив
-        Console.WriteLine("Введите строки через пробел:");
-        string[] inputArray = Console.ReadLine().Split(' ');
-
-        // Вызываем метод для фильтрации массива
-        string[] resultArray = FilterArray(inputArray);
-
-        // Выводим результат
-        Console.WriteLine("Строки длиной меньше или равной 3 символам:");
-        Console.WriteLine($"[{string.Join(", ", resultArray)}]");
-    }
-
-    static string[] FilterArray(string[] inputArray)
-    {
-        // Подсчитываем количество строк, удовлетворяющих условию
-        int count = 0;
-        foreach (string str in inputArray)
-        {
-            if (str.Length <= 3)
-            {
-                count++;
-            }
-        }
-
-        // Создаем новый массив для строк, соответствующих условию
-        string[] resultArray = new string[count];
+        // Исходный массив строк
+        string[] inputArray = { "Hello, World!", "15", "old", ":-)()" };
+        
+        // Создаем временный массив для хранения строк длиной <= 3 символа
+        string[] resultArray = new string[inputArray.Length];
         int index = 0;
 
+        // Проходим по всем строкам в исходном массиве
         foreach (string str in inputArray)
         {
+            // Если длина строки <= 3, добавляем ее в новый массив
             if (str.Length <= 3)
             {
                 resultArray[index] = str;
@@ -40,7 +21,13 @@ class Program
             }
         }
 
-        return resultArray;
+        // Вывод нового массива (обрезаем лишние пустые элементы)
+        Console.WriteLine("Результат:");
+        for (int i = 0; i < index; i++)
+        {
+            Console.WriteLine(resultArray[i]);
+        }
     }
 }
+
 
