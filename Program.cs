@@ -1,19 +1,29 @@
-﻿
+﻿using System;
+
 class Program
 {
     static void Main()
     {
         // Исходный массив строк
-        string[] inputArray = { "Hello, World!", "15", "old", ":-)()" };
-        
-        // Создаем временный массив для хранения строк длиной <= 3 символа
-        string[] resultArray = new string[inputArray.Length];
-        int index = 0;
+        string[] inputArray = { "Hello, World", "15", "old", ":-)()" };
 
-        // Проходим по всем строкам в исходном массиве
+        // Определение размера нового массива
+        int count = 0;
         foreach (string str in inputArray)
         {
-            // Если длина строки <= 3, добавляем ее в новый массив
+            if (str.Length <= 3)
+            {
+                count++;
+            }
+        }
+
+        // Создание нового массива
+        string[] resultArray = new string[count];
+        int index = 0;
+
+        // Заполнение нового массива строками длиной <= 3
+        foreach (string str in inputArray)
+        {
             if (str.Length <= 3)
             {
                 resultArray[index] = str;
@@ -21,13 +31,11 @@ class Program
             }
         }
 
-        // Вывод нового массива (обрезаем лишние пустые элементы)
-        Console.WriteLine("Результат:");
-        for (int i = 0; i < index; i++)
-        {
-            Console.WriteLine(resultArray[i]);
-        }
+        // Вывод нового массива в виде массива
+        Console.WriteLine($"[{string.Join(", ", resultArray)}]");
     }
 }
+
+
 
 
