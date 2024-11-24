@@ -1,0 +1,14 @@
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\bin\Debug\net8.0\attestation.exe
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\bin\Debug\net8.0\attestation.deps.json
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\bin\Debug\net8.0\attestation.runtimeconfig.json
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\bin\Debug\net8.0\attestation.dll
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\bin\Debug\net8.0\attestation.pdb
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.AssemblyInfoInputs.cache
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.AssemblyInfo.cs
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.csproj.CoreCompileInputs.cache
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.dll
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\refint\attestation.dll
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.pdb
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\attestation.genruntimeconfig.cache
+C:\Users\Александр и Ольга\Desktop\GB_developper\attestation\obj\Debug\net8.0\ref\attestation.dll
