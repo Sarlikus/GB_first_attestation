@@ -1,6 +1,4 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
@@ -9,26 +7,30 @@ class Program
 
         // Определение размера нового массива
         int count = 0;
-        foreach (string str in inputArray)
+        int i = 0;
+        while (i < inputArray.Length)
         {
-            if (str.Length <= 3)
+            if (inputArray[i].Length <= 3)
             {
                 count++;
             }
+            i++;
         }
 
         // Создание нового массива
         string[] resultArray = new string[count];
         int index = 0;
+        int j = 0;
 
         // Заполнение нового массива строками длиной <= 3
-        foreach (string str in inputArray)
+        while (j < inputArray.Length)
         {
-            if (str.Length <= 3)
+            if (inputArray[j].Length <= 3)
             {
-                resultArray[index] = str;
+                resultArray[index] = inputArray[j];
                 index++;
             }
+            j++;
         }
 
         // Вывод нового массива в виде массива
