@@ -3,14 +3,14 @@
     static void Main()
     {
         // Исходный массив строк
-        string[] inputArray = { "Hello, World", "15", "old", ":-)()" };
+        string[] startArray = { "Hello, World", "15", "old", ":-)()" };
 
         // Определение размера нового массива
         int count = 0;
         int i = 0;
-        while (i < inputArray.Length)
+        while (i < startArray.Length)
         {
-            if (inputArray[i].Length <= 3)
+            if (startArray[i].Length <= 3)
             {
                 count++;
             }
@@ -23,11 +23,11 @@
         int j = 0;
 
         // Заполнение нового массива строками длиной <= 3
-        while (j < inputArray.Length)
+        while (j <= count)
         {
-            if (inputArray[j].Length <= 3)
+            if (startArray[j].Length <= 3)
             {
-                resultArray[index] = inputArray[j];
+                resultArray[index] = startArray[j];
                 index++;
             }
             j++;
